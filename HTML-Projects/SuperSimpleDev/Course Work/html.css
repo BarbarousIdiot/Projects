@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <button class="Subscribe">SUBSCRIBE</button>
+<style>
+    .Subscribe {
+        background-color: rgb(175, 27, 27);
+        color:white;
+        border: none;
+        border-radius: 2px;
+        height: 36px;
+        width: 105;
+        cursor: pointer;
+        margin-right: 5px;
+        transition: opacity 0.25s;
+    }
+
+    .Subscribe:hover {
+        opacity: 0.7;
+    }
+
+    .Subscribe:active {
+        opacity: 0.3;
+    }
+
+
+
+
+</style>
+
+<button class="join">JOIN</button>
+<style>
+    .join {
+        background-color: white;
+        color: rgb(22, 72, 148);
+        border-radius: 3px;
+        border-style: solid;
+        border-color: rgb(22, 72, 148);
+        height: 36px;
+        width: 70px;
+        font-size: large;
+        margin-right: 8px;
+        cursor: pointer;
+        transition: background-color 0.25s, color 0.25s, opacity 0.25s;
+    }
+
+    .join:hover {
+        background-color: rgb(22, 72, 148);
+        color: white;
+    }
+
+    .join:active {
+        opacity: 0.7;
+    }
+
+
+</style>
+
+<button class="tweet">Tweet</button>
+<style>
+    .tweet {
+        background-color: rgb(32, 125, 211);
+        color: white;
+        height: 36px;
+        width: 80px;
+        font-weight: bolder;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: opacity 0.25s, box-shadow 0.25s;
+    }
+
+    .tweet:hover {
+        opacity: 0.7px;
+        box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.3);
+    }
+
+    .tweet:active {
+        opacity: 0.5px;
+    }
+
+</style>
+
+
+
+
+
+
+    </head>
+</html>
